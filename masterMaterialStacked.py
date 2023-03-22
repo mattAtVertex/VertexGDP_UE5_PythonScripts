@@ -31,6 +31,6 @@ stackedMatInstance = AssetTools.create_asset("masterMatStacked_ORM_Inst", "/Game
 MaterialEditLibrary.set_material_instance_parent(stackedMatInstance, masterMaterialStacked)
 MaterialEditLibrary.update_material_instance(stackedMatInstance)
 
-
+#Save Master Material and Material Instance
 EditorAssetLibrary.save_asset("/Game/masterMaterials/M_Master_Stacked", True)
 EditorAssetLibrary.save_asset("/Game/masterMaterials/masterMatStacked_ORM_Inst", True)
